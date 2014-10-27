@@ -33,14 +33,6 @@ body {
   line-height: 1;
 }
 
-.floater {
-  padding: 18px 32px;
-  background: #111C2C;
-  color: white;
-  border-radius: 64px;
-  -webkit-border-radius: 64px;
-}
-
 ol, ul {
   list-style: none;
 }
@@ -75,14 +67,8 @@ html {
 }
 
 h1, .h1 {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "proxima-nova", sams-serif;
   font-weight: 100;
-}
-
-h1 small {
-
-  font-size: 50%;
-  letter-spacing: 3px;
 }
 
 html, body {
@@ -101,8 +87,6 @@ html, body {
 }
 
 html, body {
-  height: 100%;
-  background: #1A2434;
   color: white;
   text-align: center;
 }
@@ -124,7 +108,7 @@ html, body {
 
 h1, .h1 {
   line-height: 1.166;
-  margin: .66em 0;
+  margin: 0.66em 0;
 }
 
 @media screen and (min-width: 300px) {
@@ -148,16 +132,16 @@ p {
   margin: 0.33em 0;
 }
 
-a.inline:link,
-a.inline:visited {
+a:link,
+a:visited {
   color: #35ff99;
   text-decoration: none;
   border-radius: 5px;
-  padding: 2px 4px;
+  padding: 2px;
 }
 
-a.inline:hover,
-a.inline:active {
+a:hover,
+a:active {
   background: #35ff99;
   color: #202a39;
 }
@@ -182,24 +166,27 @@ em {
   text-align: center;
 }
 
+html, body {
+  height: 100%;
+  background: #202a39;
+}
 
 .column-container {
   width: 80%;
   max-width: 1000px;
   margin: 0 auto;
-  overflow: hidden;
   height: 250%;
   text-align: center;
 }
 @media screen and (min-width: 300px) {
   .column-container {
-    padding-top: 16%;
+    padding-top: 20%;
     margin-bottom: -125px;
   }
 }
 @media screen and (min-width: 720px) {
   .column-container {
-    padding-top: 8%;
+    padding-top: 10%;
   }
 }
 
@@ -253,17 +240,6 @@ em {
 
 .block-kiwi {
   background: #35ff99;
-}
-
-.lil-block-dude {
-
-  width:         8%;
-  height:        6px;
-  border:        none;
-  border:        none;
-  background:    #1B2738;
-  border-radius: 2px;
-  margin:        2em auto 1.5em;
 }
 
 .withLove {
